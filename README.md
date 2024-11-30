@@ -21,7 +21,6 @@ Spring Data JPA
 Spring Security (future integration)
 MySQL: Database for storing player and friendship data.
 Java 21: Ensures modern features and performance.
-Spring Cloud OpenFeign: For inter-service communication (future feature).
 Maven: Dependency and build management.
 
 # Installation
