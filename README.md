@@ -1,7 +1,7 @@
 # PlayerManagement
 A Spring Boot application designed to manage players and their social connections. This project provides RESTful APIs for creating, updating, retrieving, and deleting player data. It also supports adding and managing friendships between players and automatically calculates player levels based on their total points.
 
-Features
+# Features
 
 Player Management:
 Add new players with attributes such as name, username, email, and level.
@@ -24,7 +24,7 @@ Java 21: Ensures modern features and performance.
 Spring Cloud OpenFeign: For inter-service communication (future feature).
 Maven: Dependency and build management.
 
-Installation
+# Installation
 Clone the repository:
 git clone https://github.com/your-username/player-management.git
 cd player-management
@@ -35,7 +35,7 @@ spring.datasource.username=alain
 spring.datasource.password=admin
 spring.jpa.hibernate.ddl-auto=update
 
-Contact
+# Contact
 For questions or feedback, please contact:
 Alain Michel
 Email: alain.nitunga@helb-prigogine.be
