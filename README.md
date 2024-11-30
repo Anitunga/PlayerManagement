@@ -29,13 +29,15 @@ Clone the repository:
 git clone https://github.com/your-username/player-management.git
 cd player-management
 
-Configure the database connection in src/main/resources/application.properties:
+### Configure the database connection in `src/main/resources/application.properties`:
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/shared_db
 spring.datasource.username=alain
 spring.datasource.password=admin
 spring.jpa.hibernate.ddl-auto=update
 
-# Contact
+```
+### Contact
 For questions or feedback, please contact:
-Alain Michel
+```info
 Email: alain.nitunga@helb-prigogine.be
