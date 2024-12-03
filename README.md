@@ -25,8 +25,12 @@ Maven: Dependency and build management.
 
 # Installation
 Clone the repository:
+```
 git clone https://github.com/your-username/player-management.git
+```
+```
 cd player-management
+```
 
 ### Configure the database connection in `src/main/resources/application.properties`:
 ```properties
