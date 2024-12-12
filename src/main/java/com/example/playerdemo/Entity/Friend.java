@@ -15,13 +15,16 @@ public class Friend {
     @JoinColumn(name = "player_id", nullable = false)
     private Player player;
 
-    private Long friendId; // The ID of the friend player
+    @ManyToOne
+    @JoinColumn(name = "friend_player_id", nullable = false)
+    private Player friendPlayer;
 
     // Constructor
-    public Friend() {}
+    public Friend() {
+    }
 
-    public Friend(Player player, Long friendId) {
+    public Friend(Player player, Player friendPlayer) {
         this.player = player;
-        this.friendId = friendId;
+        this.friendPlayer = friendPlayer;
     }
 }
