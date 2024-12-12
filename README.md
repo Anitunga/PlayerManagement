@@ -301,10 +301,6 @@ public interface PlayerRepository extends JpaRepository<Player, Long> {}
 
 ---
 
-This documentation provides a comprehensive overview of the Player Management Service, its components, and how they work together to provide player management functionality in the gaming platform.
-
-
-```
 ### Contact
 For questions or feedback, please contact:
 ```info
